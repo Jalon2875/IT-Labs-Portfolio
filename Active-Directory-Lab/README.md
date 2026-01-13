@@ -19,7 +19,32 @@ Simulate real-world help desk tasks using Active Directory including creating or
 7. Unlocked user account in Active Directory.
 
 ## Screenshots
-(Add screenshots here)
+
+### Server Manager Running
+![Server Manager](01-server-manager-running.png)
+
+### Active Directory Open
+![Active Directory](02-active-directory-open.png)
+
+### Organizational Unit Created
+![OU Created](03-it-users-ou-created.png)
+
+### User jtech Created
+![User Created](04-user-jtech-created.png)
+
+### User sadmin Created
+![Second User Created](05-user-sadmin-created.png)
+
+### Password Reset
+![Password Reset](06-password-reset-jtech.png)
+
+### Account Lockout
+![Account Lockout](07-account-locked-message.png)
+
+### Account Unlocked
+![Account Unlocked](08-account-unlocked-jtech.png)
+
+
 
 ## What I Learned
 - How to manage users and OUs in Active Directory.
