@@ -19,7 +19,7 @@ Join a Windows 10 client machine to an Active Directory domain and troubleshoot 
 6. Documented troubleshooting steps.
 
 
-## Screenshots
+
 ## Screenshots
 
 ### 1. Domain Controller IP Configuration
@@ -38,17 +38,6 @@ Join a Windows 10 client machine to an Active Directory domain and troubleshoot 
 ![Domain User Login](./05-domain-user-login.png)
 
 
-### DNS Configuration on Windows 10 Client
-![DNS Config](screenshots/01-dns-config.png)
-
-### Network Connectivity Test to Domain Controller
-![Ping Test](screenshots/02-ping-dc.png)
-
-### Domain Join Attempt
-![Domain Join](screenshots/03-domain-join.png)
-
-### Successful Domain Login
-![Domain Login](screenshots/04-domain-login.png)
 
 ## What I Learned
 - How DNS impacts domain joining.
