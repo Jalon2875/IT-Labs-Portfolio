@@ -17,18 +17,34 @@ This lab simulates a common enterprise IT scenario where administrators restrict
 ---
 
 ## Tasks Performed
+## Lab Walkthrough
 
-1. Installed and configured Active Directory Domain Services
-2. Created Organizational Units (OUs)
-3. Created domain users
-4. Joined a workstation to the domain
-5. Created a Group Policy Object
-6. Linked the GPO to an Organizational Unit
-7. Configured policy to disable Control Panel access
-8. Forced Group Policy update using command line
-9. Verified policy application with `gpresult`
+### Step 1 – Open Group Policy Management
+![Group Policy Management](1_gpo_management_console.png)
 
----
+### Step 2 – Create Organizational Unit
+![Create OU](2_create_ou.png)
+
+### Step 3 – Create Test User
+![Create Test User](3_create_test_user.png)
+
+### Step 4 – Create Group Policy Object
+![Create GPO](4_create_gpo.png)
+
+### Step 5 – Configure Control Panel Restriction
+![Configure Policy](5_configure_policy.png)
+
+### Step 6 – Link GPO to OU
+![Link GPO](6_link_gpo.png)
+
+### Step 7 – Verify Policy with gpresult
+![GPResult](7_gpresult_results.png)
+
+### Step 8 – Confirm Policy Applied
+![Policy Applied](8_gpo_policy_applied.png)
+
+### Step 9 – Control Panel Blocked
+![Control Panel Blocked](9_control_panel_blocked.png)
 
 ## Commands Used
 gpupdate /force
